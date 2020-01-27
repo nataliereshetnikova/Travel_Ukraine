@@ -854,11 +854,12 @@ footer li:hover, .services i:hover{
         border: none;
         padding: 15px;
         border-radius: 10px;
-        margin-top: 10px;
     }
     .question-card-answer{
         background-color: #008EDC;
+        color:white;
         z-index: 0;
+        border-radius: 10px;
     }
     .opt1, .opt2, .opt3{
         margin: 10px 10px;
