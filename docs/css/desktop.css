@@ -197,6 +197,7 @@ header label, header input{
 @media (max-width: 950px) {
     .say {
         flex-direction: column;
+        padding: 10px;
     }
     .comment{
         width: 96px;
@@ -857,13 +858,12 @@ footer li:hover, .services i:hover{
     .question-card-answer{
         background-color: #008EDC;
         z-index: 0;
-        bottom: 5px;
     }
     .opt1, .opt2, .opt3{
         margin: 10px 10px;
     }
     .question-card-submit:active, .question-card-submit:focus{
-       z-index:0;
+        z-index: -1;
     }
 }
 /* END OF BE PREPARED STYLING */
