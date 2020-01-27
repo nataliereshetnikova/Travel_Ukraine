@@ -814,13 +814,23 @@ footer li:hover, .services i:hover{
 
 @media (max-width: 649px){
     .question-card{
-        width:300px;
-        display:flex;
-        flex-direction: column;
+        width:80%;
+        display:inline-grid;
+        grid-template-areas: 
+        "question"
+        "img"
+        "hr"
+        "opt1"
+        "opt1"
+        "opt2"
+        "opt2"
+        "opt3"
+        "opt3"
+        "qsubmit";
+        align-items: stretch;
     }
     .question-card h2{
         grid-area: question;
-
     }
     .question-img{
         grid-area:img;
@@ -829,7 +839,8 @@ footer li:hover, .services i:hover{
     .question-card hr{
         grid-area: hr;
         margin: 5px;
-        width: 280px;
+        width: 70%;
+        justify-self: center;
     }
     .question-card-submit, .question-card-answer{
         grid-area: qsubmit;
@@ -846,8 +857,7 @@ footer li:hover, .services i:hover{
     .question-card-answer{
         background-color: #008EDC;
         z-index: 0;
-        position: relative;
-        bottom: 55px;
+        bottom: 5px;
     }
     .opt1, .opt2, .opt3{
         margin: 10px 10px;
