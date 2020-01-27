@@ -845,15 +845,16 @@ footer li:hover, .services i:hover{
     }
     .question-card-submit, .question-card-answer{
         grid-area: qsubmit;
+
+    }
+    .question-card-submit{
+        z-index: 1;
         background-color: rgb(218, 155, 54);
         color:white;
         border: none;
         padding: 15px;
         border-radius: 10px;
         margin-top: 10px;
-    }
-    .question-card-submit{
-        z-index: 1;
     }
     .question-card-answer{
         background-color: #008EDC;
